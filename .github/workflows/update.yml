@@ -1,0 +1,25 @@
+name: Update Iran RSC
+
+on:
+  schedule:
+    - cron: '0 2 1 * *'  # Every 1st of the month at 02:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install unzip
+        run: sudo apt-get install unzip
+      - name: Generate RSC
+        run: bash generate_iran_rsc.sh
+        env:
+          MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add iran.rsc
+          git commit -m "Update IRAN IPs" || echo "No changes"
+          git push
