@@ -2,7 +2,7 @@ name: Update Iran RSC
 
 on:
   schedule:
-    - cron: '0 2 1 * *'  # Every 1st of the month at 02:00 UTC
+    - cron: '0 2 * * 1'  # Every Monday at 02:00 UTC
   workflow_dispatch:
 
 jobs:
