@@ -27,7 +27,7 @@ Paste the following into the MikroTik **terminal**.
 ```rsc
 /system script
 :do { remove [find name="update-iran-ips"] } on-error={}
-add name="update-iran-ips" policy=read,write,test,policy source={
+add name="update-iran-ips" policy=ftp,read,write,test,policy source={
     /ip firewall address-list
     :foreach i in=[find list=IRAN] do={ remove $i }
 
@@ -58,7 +58,7 @@ Runs at 05:00 every week on the same weekday you create it. If you add it on a *
 :do { remove [find name="update-iran-ips-weekly"] } on-error={}
 add name="update-iran-ips-weekly" start-time=05:00:00 interval=1w \
     on-event="/system script run update-iran-ips" \
-    policy=read,write,test,policy comment="Run every Monday at 05:00"
+    policy=ftp,read,write,test,policy comment="Run every Monday at 05:00"
 ```
 
 **B. Explicit Monday start date (use if you’re not adding it on a Monday)**  
@@ -68,7 +68,7 @@ Replace the `start-date` with the date of the **next Monday** (format `mmm/DD/YY
 :do { remove [find name="update-iran-ips-weekly"] } on-error={}
 add name="update-iran-ips-weekly" start-date=aug/18/2025 start-time=05:00:00 interval=1w \
     on-event="/system script run update-iran-ips" \
-    policy=read,write,test,policy comment="Run every Monday at 05:00"
+    policy=ftp,read,write,test,policy comment="Run every Monday at 05:00"
 ```
 
 > **Tip:** After adding, run:
