@@ -1,4 +1,4 @@
-# Iran Firewall Address List for MikroTik (`iran-fw-rsc`)
+# Iran Firewall Address List for MikroTik
 
 Keep a MikroTik address-list named **`IRAN`** up to date using a simple script and a weekly scheduler.  
 This repo provides a ready-to-import `iran.rsc` containing the latest IP ranges, plus copy‑paste commands to automate updates.
