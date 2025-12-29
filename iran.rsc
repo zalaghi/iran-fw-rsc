@@ -913,7 +913,15 @@
 /ip firewall address-list add list=IRAN address=104.28.246.162/31
 /ip firewall address-list add list=IRAN address=104.28.246.164/30
 /ip firewall address-list add list=IRAN address=104.28.246.168/32
-/ip firewall address-list add list=IRAN address=104.167.26.0/23
+/ip firewall address-list add list=IRAN address=104.167.26.0/24
+/ip firewall address-list add list=IRAN address=104.167.27.0/26
+/ip firewall address-list add list=IRAN address=104.167.27.64/28
+/ip firewall address-list add list=IRAN address=104.167.27.80/29
+/ip firewall address-list add list=IRAN address=104.167.27.89/32
+/ip firewall address-list add list=IRAN address=104.167.27.90/31
+/ip firewall address-list add list=IRAN address=104.167.27.92/30
+/ip firewall address-list add list=IRAN address=104.167.27.96/27
+/ip firewall address-list add list=IRAN address=104.167.27.128/25
 /ip firewall address-list add list=IRAN address=109.70.76.0/23
 /ip firewall address-list add list=IRAN address=109.70.78.0/24
 /ip firewall address-list add list=IRAN address=109.70.237.0/24
