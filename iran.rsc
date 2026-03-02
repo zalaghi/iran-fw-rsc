@@ -330,6 +330,7 @@
 /ip firewall address-list add list=IRAN address=77.81.128.0/21
 /ip firewall address-list add list=IRAN address=77.81.144.0/20
 /ip firewall address-list add list=IRAN address=77.81.192.0/19
+/ip firewall address-list add list=IRAN address=77.90.185.0/24
 /ip firewall address-list add list=IRAN address=77.95.219.0/24
 /ip firewall address-list add list=IRAN address=77.104.64.0/18
 /ip firewall address-list add list=IRAN address=77.237.64.0/19
@@ -627,7 +628,6 @@
 /ip firewall address-list add list=IRAN address=91.186.193.0/24
 /ip firewall address-list add list=IRAN address=91.190.88.0/21
 /ip firewall address-list add list=IRAN address=91.192.160.0/24
-/ip firewall address-list add list=IRAN address=91.194.6.0/24
 /ip firewall address-list add list=IRAN address=91.195.37.0/24
 /ip firewall address-list add list=IRAN address=91.197.242.0/24
 /ip firewall address-list add list=IRAN address=91.198.110.0/24
@@ -659,6 +659,7 @@
 /ip firewall address-list add list=IRAN address=91.213.83.0/24
 /ip firewall address-list add list=IRAN address=91.213.151.0/24
 /ip firewall address-list add list=IRAN address=91.213.157.0/24
+/ip firewall address-list add list=IRAN address=91.213.164.0/24
 /ip firewall address-list add list=IRAN address=91.213.167.0/24
 /ip firewall address-list add list=IRAN address=91.213.172.0/24
 /ip firewall address-list add list=IRAN address=91.216.4.0/24
@@ -715,7 +716,7 @@
 /ip firewall address-list add list=IRAN address=91.234.52.0/24
 /ip firewall address-list add list=IRAN address=91.234.147.0/24
 /ip firewall address-list add list=IRAN address=91.236.168.0/23
-/ip firewall address-list add list=IRAN address=91.237.254.0/23
+/ip firewall address-list add list=IRAN address=91.237.255.0/24
 /ip firewall address-list add list=IRAN address=91.238.0.0/24
 /ip firewall address-list add list=IRAN address=91.239.14.0/24
 /ip firewall address-list add list=IRAN address=91.239.59.0/24
@@ -837,6 +838,7 @@
 /ip firewall address-list add list=IRAN address=94.183.170.0/23
 /ip firewall address-list add list=IRAN address=94.183.176.0/22
 /ip firewall address-list add list=IRAN address=94.183.180.0/23
+/ip firewall address-list add list=IRAN address=94.183.237.0/24
 /ip firewall address-list add list=IRAN address=94.184.0.0/16
 /ip firewall address-list add list=IRAN address=94.199.0.0/24
 /ip firewall address-list add list=IRAN address=94.199.136.0/22
@@ -999,7 +1001,6 @@
 /ip firewall address-list add list=IRAN address=172.94.9.0/24
 /ip firewall address-list add list=IRAN address=176.10.95.0/24
 /ip firewall address-list add list=IRAN address=176.46.134.0/24
-/ip firewall address-list add list=IRAN address=176.46.136.0/24
 /ip firewall address-list add list=IRAN address=176.46.138.0/23
 /ip firewall address-list add list=IRAN address=176.46.141.0/24
 /ip firewall address-list add list=IRAN address=176.46.142.0/24
@@ -1389,7 +1390,8 @@
 /ip firewall address-list add list=IRAN address=185.142.124.0/22
 /ip firewall address-list add list=IRAN address=185.142.156.0/22
 /ip firewall address-list add list=IRAN address=185.142.232.0/22
-/ip firewall address-list add list=IRAN address=185.143.72.0/22
+/ip firewall address-list add list=IRAN address=185.143.73.0/24
+/ip firewall address-list add list=IRAN address=185.143.74.0/23
 /ip firewall address-list add list=IRAN address=185.143.204.0/22
 /ip firewall address-list add list=IRAN address=185.143.232.0/22
 /ip firewall address-list add list=IRAN address=185.144.64.0/22
@@ -1752,6 +1754,7 @@
 /ip firewall address-list add list=IRAN address=193.58.119.0/24
 /ip firewall address-list add list=IRAN address=193.84.255.0/24
 /ip firewall address-list add list=IRAN address=193.93.169.0/24
+/ip firewall address-list add list=IRAN address=193.93.171.0/24
 /ip firewall address-list add list=IRAN address=193.93.182.0/24
 /ip firewall address-list add list=IRAN address=193.104.22.0/24
 /ip firewall address-list add list=IRAN address=193.104.29.0/24
@@ -1867,6 +1870,7 @@
 /ip firewall address-list add list=IRAN address=194.180.208.0/23
 /ip firewall address-list add list=IRAN address=194.180.224.0/24
 /ip firewall address-list add list=IRAN address=194.180.238.0/24
+/ip firewall address-list add list=IRAN address=194.213.118.0/24
 /ip firewall address-list add list=IRAN address=194.225.0.0/16
 /ip firewall address-list add list=IRAN address=194.242.22.0/24
 /ip firewall address-list add list=IRAN address=194.246.34.0/24
@@ -1908,6 +1912,7 @@
 /ip firewall address-list add list=IRAN address=195.191.74.0/23
 /ip firewall address-list add list=IRAN address=195.200.77.0/24
 /ip firewall address-list add list=IRAN address=195.211.44.0/22
+/ip firewall address-list add list=IRAN address=195.211.71.0/24
 /ip firewall address-list add list=IRAN address=195.214.235.0/24
 /ip firewall address-list add list=IRAN address=195.225.232.0/24
 /ip firewall address-list add list=IRAN address=195.226.223.0/24
@@ -1977,7 +1982,6 @@
 /ip firewall address-list add list=IRAN address=213.176.20.0/22
 /ip firewall address-list add list=IRAN address=213.176.24.0/21
 /ip firewall address-list add list=IRAN address=213.176.68.0/22
-/ip firewall address-list add list=IRAN address=213.176.72.0/23
 /ip firewall address-list add list=IRAN address=213.176.80.0/21
 /ip firewall address-list add list=IRAN address=213.176.88.0/22
 /ip firewall address-list add list=IRAN address=213.176.116.0/23
