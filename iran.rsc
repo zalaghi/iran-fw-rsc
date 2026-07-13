@@ -410,6 +410,9 @@
 /ip firewall address-list add list=IRAN address=83.150.192.0/22
 /ip firewall address-list add list=IRAN address=84.47.192.0/18
 /ip firewall address-list add list=IRAN address=84.241.0.0/18
+/ip firewall address-list add list=IRAN address=85.8.230.0/23
+/ip firewall address-list add list=IRAN address=85.8.232.0/24
+/ip firewall address-list add list=IRAN address=85.8.236.0/24
 /ip firewall address-list add list=IRAN address=85.9.64.0/18
 /ip firewall address-list add list=IRAN address=85.15.0.0/18
 /ip firewall address-list add list=IRAN address=85.133.128.0/18
@@ -652,6 +655,7 @@
 /ip firewall address-list add list=IRAN address=91.186.193.0/24
 /ip firewall address-list add list=IRAN address=91.190.88.0/21
 /ip firewall address-list add list=IRAN address=91.192.160.0/24
+/ip firewall address-list add list=IRAN address=91.194.6.0/24
 /ip firewall address-list add list=IRAN address=91.195.37.0/24
 /ip firewall address-list add list=IRAN address=91.197.242.0/24
 /ip firewall address-list add list=IRAN address=91.198.110.0/24
@@ -762,7 +766,7 @@
 /ip firewall address-list add list=IRAN address=91.244.120.0/22
 /ip firewall address-list add list=IRAN address=91.245.228.0/22
 /ip firewall address-list add list=IRAN address=91.246.31.0/24
-/ip firewall address-list add list=IRAN address=91.246.44.0/24
+/ip firewall address-list add list=IRAN address=91.246.44.0/23
 /ip firewall address-list add list=IRAN address=91.247.66.0/23
 /ip firewall address-list add list=IRAN address=91.247.171.0/24
 /ip firewall address-list add list=IRAN address=91.250.224.0/20
@@ -874,7 +878,6 @@
 /ip firewall address-list add list=IRAN address=94.199.136.0/22
 /ip firewall address-list add list=IRAN address=94.232.168.0/21
 /ip firewall address-list add list=IRAN address=94.241.132.0/22
-/ip firewall address-list add list=IRAN address=94.249.244.0/24
 /ip firewall address-list add list=IRAN address=95.38.0.0/16
 /ip firewall address-list add list=IRAN address=95.64.0.0/17
 /ip firewall address-list add list=IRAN address=95.80.128.0/18
@@ -897,7 +900,6 @@
 /ip firewall address-list add list=IRAN address=95.162.0.0/16
 /ip firewall address-list add list=IRAN address=95.215.59.0/24
 /ip firewall address-list add list=IRAN address=95.215.160.0/22
-/ip firewall address-list add list=IRAN address=95.215.173.0/24
 /ip firewall address-list add list=IRAN address=103.111.69.0/24
 /ip firewall address-list add list=IRAN address=103.111.71.0/24
 /ip firewall address-list add list=IRAN address=103.130.144.0/24
@@ -1447,6 +1449,7 @@
 /ip firewall address-list add list=IRAN address=185.165.40.0/22
 /ip firewall address-list add list=IRAN address=185.165.116.0/22
 /ip firewall address-list add list=IRAN address=185.165.204.0/22
+/ip firewall address-list add list=IRAN address=185.166.3.0/24
 /ip firewall address-list add list=IRAN address=185.166.60.0/22
 /ip firewall address-list add list=IRAN address=185.166.92.0/24
 /ip firewall address-list add list=IRAN address=185.166.104.0/22
@@ -1803,7 +1806,6 @@
 /ip firewall address-list add list=IRAN address=193.186.215.0/24
 /ip firewall address-list add list=IRAN address=193.189.122.0/23
 /ip firewall address-list add list=IRAN address=193.200.148.0/24
-/ip firewall address-list add list=IRAN address=193.201.23.0/24
 /ip firewall address-list add list=IRAN address=193.201.66.0/24
 /ip firewall address-list add list=IRAN address=193.201.192.0/22
 /ip firewall address-list add list=IRAN address=193.222.51.0/24
@@ -1837,7 +1839,8 @@
 /ip firewall address-list add list=IRAN address=194.32.209.0/24
 /ip firewall address-list add list=IRAN address=194.32.213.0/24
 /ip firewall address-list add list=IRAN address=194.32.214.0/23
-/ip firewall address-list add list=IRAN address=194.33.104.0/22
+/ip firewall address-list add list=IRAN address=194.33.104.0/23
+/ip firewall address-list add list=IRAN address=194.33.107.0/24
 /ip firewall address-list add list=IRAN address=194.33.122.0/23
 /ip firewall address-list add list=IRAN address=194.33.124.0/22
 /ip firewall address-list add list=IRAN address=194.34.160.0/22
